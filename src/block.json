@@ -1,0 +1,38 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "instruction/selector",
+	"version": "0.1.0",
+	"title": "Instruktionen",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Geleitete Contenterstellung.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "instruction-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"script": "file:./script.js",
+	"attributes": {
+		"selectedPost": {
+			"type": "string",
+			"default": ""
+		},
+		"title": {
+			"type": "string",
+			"default": ""
+		},
+		"hint": {
+			"type": "string",
+			"default": ""
+		},
+		"icon": {
+			"type": "string",
+			"default": ""
+		}
+	}
+}
