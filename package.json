@@ -17,5 +17,10 @@
 	},
 	"devDependencies": {
 		"@wordpress/scripts": "^26.19.0"
+	},
+	"dependencies": {
+		"ace-builds": "^1.32.3",
+		"pako": "^2.1.0",
+		"react-ace": "^10.1.0"
 	}
 }
